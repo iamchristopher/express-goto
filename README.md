@@ -3,6 +3,9 @@ Middleware to let you jump between ExpressJS route handlers.
 
 ## Usage
 ```js
+var router = require('express').Router();
+router.use(require('express-goto'));
+
 router.post('/', StepOne, StepTwo, StepThree);
 
 function StepOne (req, res, next) {
