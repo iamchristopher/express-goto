@@ -1,7 +1,13 @@
 # Express goto
 Middleware to let you jump between ExpressJS route handlers.
 
+## Installation
+```js
+npm i express-goto
+```
+
 ## Usage
+You can pass either a numeric key or method name for the handler to jump to.
 ```js
 var router = require('express').Router();
 router.use(require('express-goto'));
