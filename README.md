@@ -28,7 +28,7 @@ function StepTwo (req, res, next) {
 
 function StepThree (req, res, next) {
 
-    // Jump to StepOne
+    // Jump to StepTwo
     if (true) {
         req.goto('StepTwo');
     }
